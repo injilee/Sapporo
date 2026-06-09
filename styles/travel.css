@@ -1,0 +1,32 @@
+/* travel */
+body {
+  position: relative;
+  padding: 2rem 1rem 3.5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.info {
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #C3E8F8;
+  font-weight: 500;
+  color: #000;
+  border-radius: 1rem;
+}
+
+.tour_list li {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.tour_list a {
+  padding-top: 0.5rem;
+  text-decoration: underline;
+}

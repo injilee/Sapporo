@@ -1,0 +1,78 @@
+/* information */
+body {
+  position: relative;
+  padding: 2rem 1rem 5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.info {
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #C3E8F8;
+  font-weight: 500;
+  color: #000;
+  border-radius: 1rem;
+}
+
+.info_list {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.info_list li {
+  color: #606060;
+  font-weight: 500;
+  padding: 0.2rem 0.7rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  border: 2px solid #dadada;
+}
+
+.info_list li:hover {
+  color: #353535;
+  font-weight: 700;
+  border: 2px solid #9e9e9e;
+}
+
+.info_list li.active {
+  color: #353535;
+  font-weight: 700;
+  border: 2px solid #9e9e9e;
+}
+
+.info_wrap {
+  padding-top: 1rem;
+}
+
+.info_wrap li {
+  margin-bottom: 1rem;
+}
+
+.info_wrap img {
+  padding-top: 0.5rem;
+}
+
+.info_wrap a {
+  display: block;
+  font-weight: 500;
+  padding-top: 0.3rem;
+  text-decoration: underline;
+}
+
+
+#exchange dl {
+  padding-top: 0.5rem;
+}
+
+#exchange dd {
+  margin: 0;
+}

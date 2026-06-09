@@ -1,0 +1,67 @@
+/* flight */
+body {
+  position: relative;
+  padding: 3rem 1rem 3.5rem;
+}
+
+.main_title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.title_wrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding-left: 0.5rem;
+}
+
+.ticket {
+  width: 100%;
+  margin: 0 auto 2rem;
+}
+
+.departure_info .ticket_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FBE66E;
+  padding: 0.7rem 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.departure_info .ticket_bottom span {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.arrival_info .ticket_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #142E83;
+  padding: 0.7rem 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.arrival_info .ticket_bottom span {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.ticket_bottom img {
+  width: 100px;
+  height: auto;
+}
